@@ -9,7 +9,7 @@ from environment_data.data_generators import generate_random_email_address, gene
 class CompanyServiceRESTAPI(ApithonRestJWT):
     def __init__(self, env_data):
         logger = logging.getLogger("instr.log").getChild(__name__)
-        base_url = 'https://quality.mendixcloud.com/rest/company-service/v1'
+        base_url = 'https://companies-test.mendix.com/rest/company-service/v1'
         super().__init__(env_data=env_data, logger=logger, base_url=base_url)
 
     def post_company(self, access_token, body):

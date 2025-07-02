@@ -6,7 +6,7 @@ from api_clients.apithon import ApithonODataJWT
 class CompanyServiceODataAPI(ApithonODataJWT):
     def __init__(self, env_data):
         logger = logging.getLogger("instr.log").getChild(__name__)
-        base_url = "https://quality.mendixcloud.com/odata/company-service/v1"
+        base_url = "https://companies-test.mendix.com/odata/company-service/v1"
         super().__init__(env_data=env_data, logger=logger, base_url=base_url)
         self.namespaces = {'dataservices': "http://schemas.microsoft.com/ado/2007/08/dataservices",
                            'atom': "http://www.w3.org/2005/Atom",
