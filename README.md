@@ -1,4 +1,4 @@
-# Apithon Custom API Testing Framework
+# Custom API Testing Framework
 
 ## Overview
 
