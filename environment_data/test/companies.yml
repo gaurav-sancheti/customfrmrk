@@ -1,0 +1,49 @@
+companies:
+  cc_company_service_test_company:
+    id: '8cace577-9cb3-4b1a-a9d4-a1998ca87d10'
+    email_domain: 'qyqurviwvggvszdr.test'
+
+  cc_test_company_modified_on_a_specific_date:
+    id: '8afd25b3-f8ec-4d34-a86e-d15339149776'
+
+  cc_company_for_get_operations:
+    id: '9daff271-8a83-47f3-a8ba-834bcd7e1286'
+    contact_id: 'afc61ca1-91fb-4202-b5f1-03098ab2f066'
+    contact_name: 'KhqSOWw'
+    contact_email_address: 'apithon.xXBjfkXylK@bUUdVuKnhwBzIUKj.test'
+    name: 'NjvozDR'
+    description: 'CZJpfLaxPJpkqzxElHHL'
+    logo_url: 'https://companies-static.mendix.com/prod/ccb8cf00-02ae-4c4a-b12d-c188ef32b734/logo-standard-53e20425-db03-4a2a-b9bb-bb3c72e12929.jpg'
+    cover_image_url: 'https://companies-static.mendix.com/prod/ccb8cf00-02ae-4c4a-b12d-c188ef32b734/cover-image-51f26922-2a48-415f-95df-848c8dbf7f30.jpg'
+    digitally_sign_emails: True
+    brand:
+      assets:
+        logo:
+          key: 'LogoStandard'
+          location: 'https://companies-static.mendix.com/test/5865bad2-97fa-4523-87c9-013438e1c15e/logo-standard-4a7e4c30-a799-4c4a-8b23-9f66b7bf4e4b.jpg'
+
+  cc_company_for_patch_operations:
+    id: '5cb4a488-8e11-4b3d-ad42-03dc52abc0d9'
+    logo_base_url: 'https://companies-static.mendix.com/prod/ce469d60-8d7f-407a-b5b2-185f831b1160/logo-standard-'
+    cover_image_base_url: 'https://companies-static.mendix.com/prod/ce469d60-8d7f-407a-b5b2-185f831b1160/cover-image-'
+
+  company_without_brand:
+    id: 'a7abcada-0b58-435d-856b-022132683944'
+
+  company_with_only_logo:
+    id: '622893d1-afd1-4fcf-9d5b-060ae7ca6a08'
+    logo_url: 'https://companies-static.mendix.com/prod/a70c4742-becb-48aa-9d68-78f726070806/logo-standard-855d64a3-b437-414f-9106-a86cd7692102.jpg'
+    brand:
+      assets:
+        logo:
+          key: 'LogoStandard'
+          location: 'https://companies-static.mendix.com/prod/a70c4742-becb-48aa-9d68-78f726070806/logo-standard-855d64a3-b437-414f-9106-a86cd7692102.jpg'
+
+  company_with_only_cover_image:
+    id: 'c8f19f9b-04a9-4403-a671-a3fbf561bcd6'
+    cover_image_url: 'https://companies-static.mendix.com/prod/8178d8d7-aba9-4313-94fa-1bbc7ec4523d/cover-image-4964e4cd-1df4-4bff-bf32-76c4fc5c816f.jpg'
+    brand:
+      assets:
+        cover:
+          key: 'CoverImage'
+          location: 'https://companies-static.mendix.com/prod/8178d8d7-aba9-4313-94fa-1bbc7ec4523d/cover-image-4964e4cd-1df4-4bff-bf32-76c4fc5c816f.jpg'

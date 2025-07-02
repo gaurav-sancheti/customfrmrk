@@ -1,0 +1,14 @@
+company_service:
+  base_url: '{company_service}'
+  default_logo_url: '{company_service}/images/default-logo.png'
+  default_colors:
+    warning: '#f99b1d'
+    primary: '#0595DB'
+    danger: '#ed1c24'
+    inverse: '#252C36'
+    info: '#48B0F7'
+    default: '#DDDDDD'
+    success: '#76CA02'
+  company_service_rest_api_apithon:
+    username: 'ApithonClient'
+    password: 'Password1234!'

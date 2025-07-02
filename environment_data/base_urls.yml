@@ -1,0 +1,9 @@
+test:
+  appinsights: 'https://appinsights.mendix.com'
+  company_service: 'https://quality.mendixcloud.com'
+  control_center: 'https://controlcenter.mendix.com'
+  email_validation_service: 'https://evs.home.mendix.com'
+  mxid2: 'https://mxid2.mendixcloud.com'
+  mxid3: 'https://login.mendix.com'
+  platform_api_gateway: 'https://internal-api.platform.eu.mendix.com'
+  sprintr: 'https://sprintr.home.mendix.com'

@@ -1,0 +1,17 @@
+mxid3:
+  base_url: '{mxid3}'
+  session_endpoint: '/mxid3/session'
+  mock_email_inbox_endpoint: 'https://www.mailinator.com/v4/public/inboxes.jsp'
+  mock_email_service_domain: 'mailinator.com'
+  cc_company_service_client:
+    client_id: 'cc_client_for_company_service_prod'
+    client_secret: 'sfL7roKerblzmWaJsdbc3mpfm14do9v2r9cI4zspNd5zsvzrHy'
+  cc_brand_service_client:
+    client_id: 'cc_brand_service_prod'
+    client_secret: 'f7ql2pYnrQgHlexv4qA6xryMCwmg4og5zjJikqcs18uewph4l'
+  evs_company_service_client:
+    client_id: 'evs_client_for_company_service_prod'
+    client_secret: '0cfsNuj1p8zrin9K2fcIgt5qPxqaw4coOwuW1ocPdbazgx8ht'
+  evs_client_for_company_service:
+    client_id: 'evs_client_for_company_service_prod'
+    client_secret: '0cfsNuj1p8zrin9K2fcIgt5qPxqaw4coOwuW1ocPdbazgx8ht'
